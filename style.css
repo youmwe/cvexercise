@@ -115,11 +115,11 @@ body {
 .hire-me, .my-works {
     text-align: center;
     margin-top: 15px;
-    font-size: 0.8em; 
+    font-size: 0.75em; 
 }
 
 .hire-me h2, .my-works h2 {
-    font-size: 1em; 
+    font-size: 0.95em; 
     margin-bottom: 8px;
 }
 
@@ -131,6 +131,16 @@ body {
 
 .hire-me li {
     margin: 2px 0;
-    font-size: 0.85em; 
+    font-size: 0.8em;
 }
 
+.my-works a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+.my-works a:hover {
+    text-decoration: underline;
+}
