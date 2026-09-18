@@ -114,13 +114,13 @@ body {
 
 .hire-me, .my-works {
     text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em; 
+    margin-top: 15px;
+    font-size: 0.8em; 
 }
 
 .hire-me h2, .my-works h2 {
-    font-size: 1.2em; 
-    margin-bottom: 10px;
+    font-size: 1em; 
+    margin-bottom: 8px;
 }
 
 .hire-me ul {
@@ -130,16 +130,7 @@ body {
 }
 
 .hire-me li {
-    margin: 3px 0;
+    margin: 2px 0;
+    font-size: 0.85em; 
 }
 
-.my-works a {
-    color: #0066cc;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.my-works a:hover {
-    text-decoration: underline;
-}
