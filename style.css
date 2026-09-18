@@ -114,32 +114,32 @@ body {
 
 .hire-me, .my-works {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    font-size: 0.9em; 
 }
 
 .hire-me h2, .my-works h2 {
-    color: #222;
-    margin-bottom: 15px;
+    font-size: 1.2em; 
+    margin-bottom: 10px;
 }
 
 .hire-me ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .hire-me li {
-    margin: 5px 0;
-    font-size: 1.1em;
+    margin: 3px 0;
 }
 
 .my-works a {
     color: #0066cc;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1em;
 }
 
 .my-works a:hover {
     text-decoration: underline;
 }
-
-
