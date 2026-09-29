@@ -1,157 +1,89 @@
 /* Google Fonts - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
+ 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
 }
-
+ 
 body {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f4f4f4;
-  padding: 30px 0;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+background-color: #f4f4f4;
+padding: 30px 0;
 }
-
+ 
 .profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 370px;
-  width: 100%;
-  background: #fff;
-  border-radius: 24px;
-  padding: 25px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  position: relative;
-  padding-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 370px;
+width: 100%;
+background: #fff;
+border-radius: 24px;
+padding: 25px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+position: relative;
+padding-top: 40px;
 }
-
+ 
 .profile::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 36%;
-  width: 100%;
-  border-radius: 24px 24px 0 0;
-  background-color: #CBC4C4;
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+height: 230px;
+width: 100%;
+border-radius: 24px 24px 0 0;
+background-color: #CBC4C4;
 }
-
+ 
 .image {
-  position: relative;
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  background-color: #CBC4C4;
-  padding: 3px;
-  margin-bottom: 20px;
+position: relative;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+background-color: #CBC4C4;
+padding: 3px;
+margin-bottom: 20px;
+z-index: 1;
 }
-
+ 
 .image .profile-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #fff;
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 50%;
+border: 3px solid #fff;
 }
-
+ 
 .profile .text-data {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #333;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: #333;
+z-index: 1;
 }
-
+ 
 .text-data .name {
-  font-size: 22px;
-  font-weight: 500;
-  margin-top: 10px;   
-  margin-bottom: 5px;
+font-size: 22px;
+font-weight: 500;
+margin-top: 10px;
+margin-bottom: 5px;
 }
-
+ 
 .text-data .job {
-  font-size: 15px;
-  font-weight: 400;
+font-size: 15px;
+font-weight: 400;
 }
-
-.profile .media-buttons {
-  display: flex;
-  align-items: center;
-  margin-top: 15px;
-}
-
-.media-buttons .link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 18px;
-  height: 34px;
-  width: 34px;
-  border-radius: 50%;
-  margin: 0 8px;
-  background-color: #CBC4C4;
-  text-decoration: none;
-}
-
-.profile .buttons {
-  display: flex;
-  align-items: center;
-  margin-top: 25px;
-}
-
-.analytics .data {
-  display: flex;
-  align-items: center;
-  color: #333;
-}
-
-.data i {
-  font-size: 18px;
-  margin-right: 6px;
-}
-
-.hire-me, .my-works {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 0.8em;
-}
-
-.hire-me h2, .my-works h2 {
-    font-size: 1em;
-    margin-bottom: 8px;
-}
-
-.hire-me ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.hire-me li {
-    margin: 3px 0;
-    font-size: 0.85em;
-}
-
-.my-works a {
-    color: #0066cc;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.9em;
-}
-
-.my-works a:hover {
-    text-decoration: underline;
-}
-
+ 
 .nav-menu {
 margin-top: 15px;
 text-align: center;
+z-index: 1;
 }
  
 .nav-menu a {
@@ -167,9 +99,74 @@ font-weight: bold;
 text-decoration: underline;
 }
  
+.profile .media-buttons {
+display: flex;
+align-items: center;
+margin-top: 15px;
+}
+ 
+.media-buttons .link {
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-size: 18px;
+height: 34px;
+width: 34px;
+border-radius: 50%;
+margin: 0 8px;
+background-color: #CBC4C4;
+text-decoration: none;
+}
+ 
+.analytics {
+margin-top: 15px;
+}
+ 
+.analytics .data {
+display: flex;
+align-items: center;
+color: #333;
+}
+ 
+.hire-me,
+.my-works {
+text-align: center;
+margin-top: 15px;
+font-size: 0.8em;
+}
+ 
+.hire-me h2,
+.my-works h2 {
+font-size: 1em;
+margin-bottom: 8px;
+}
+ 
+.hire-me ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+ 
+.hire-me li {
+margin: 3px 0;
+font-size: 0.85em;
+}
+ 
+.my-works a {
+color: #0066cc;
+text-decoration: none;
+font-weight: bold;
+font-size: 0.9em;
+}
+ 
+.my-works a:hover {
+text-decoration: underline;
+}
+ 
 .about-me {
 width: 100%;
-margin-top: 20px;
+margin-top: 25px;
 text-align: left;
 font-size: 0.8em;
 }
@@ -180,5 +177,5 @@ margin-bottom: 8px;
 }
  
 .about-me p {
-line-height: 1.5;
+line-height: 1.6;
 }
